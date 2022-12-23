@@ -1,0 +1,76 @@
+.content {
+    width: 70%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border-left: 1px solid rgb(177, 175, 175);
+    overflow: auto;
+    padding: 20px;
+  }
+  
+
+.about-block {
+    width: 90%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    color: #aaa;
+    margin: 15px 0;
+  }
+
+.about-block > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.225s;
+  }
+
+.about-block > img:hover {
+    opacity: 0.8;
+ }
+
+ .text-part {
+    padding-top: 10px;
+    padding-left: 20px;
+ }
+
+ .about .title {
+    font-size: 36px;
+    color: black;
+}
+
+.about .text-1-block {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+.about .text-2-block {
+    padding-top: 10px;
+    color: black;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.touch-button {
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: rgb(193, 193, 193);
+    width: 90px;
+    height: 22px;
+    opacity: 0.5;
+    border-radius: 5px;
+    transition: 0.25s;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.touch-button:hover {
+    opacity: 0.7;
+    transition: 0.25s;
+}
